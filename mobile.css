@@ -1,0 +1,60 @@
+<style>
+div.container {
+    width: 100%;  
+}
+header{
+     height:100px;
+    color: red;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav{
+    height:30px
+    background color red;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100vh; 
+    
+    nav:before{
+        content: '';
+         position: absolute;
+         width: 100%;
+         top: 0.3em;
+         left: 0px;
+         border-top: 0.2em solid #fff;
+}
+
+aside.right{
+	background-color: red;
+	height: 1000px;
+	float: right;
+    width:200px;
+    color: black;	
+}
+aside.left{
+	background-color: red;
+	height: 1000px;
+	float: left;
+	width:200px;	
+}
+
+
+footer {
+    height:95px;
+    color: white;
+    background-color: red;
+    clear: left;
+    text-align: center;
+}
+article {
+	height:1000px;
+    background-color: whitesmoke;
+    border:"10"align="center";
+}
+
+</style>
