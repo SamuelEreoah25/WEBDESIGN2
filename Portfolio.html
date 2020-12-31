@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+<header>
+   <h1>MY PORTFOLIO</h1>
+   <p><a href="index.html"><button>HomePage</button></a><a
+    <p><a href="Portfolio.html"><button>Portfolio</button></a><a
+        <p><a href="Contact.html"><button>Contact</button></a><a
+           <p><a href="CV's.html"><button>CV</button></a><a
+            <p><a href="sitereport.html"><button>Site Report</button></a><a
+      
+</header>
+
+<Nav>
+
+</Nav>
+  
+<article>
+   <aside class= right>
+      <div class="slideshow-container">
+
+         <div class="mySlides fade">
+         
+           <img src="Samuel6.jpg" style="width:100%">
+         
+         </div>
+         
+         <div class="mySlides fade">
+         
+           <img src="Samuel7.jpg" style="width:100%">
+         </div>
+         
+         <div class="mySlides fade">
+         
+           <img src="Samuel8.jpg" style="width:100%">
+         
+         </div>
+         <div class="mySlides fade">
+         
+           <img src="Samuel9.jpg" style="width:100%">
+         </div>
+
+         <div class="mySlides fade">
+         
+            <img src="Samuel1.jpg" style="width:100%">
+          </div>
+
+         <br>
+         
+         <div style="text-align:center">
+           <span class="dot"></span> 
+           <span class="dot"></span> 
+           <span class="dot"></span>
+           <span class="dot"></span> 
+           <span class="dot"></span> 
+
+
+         </div>
+         
+         <script>
+         var slideIndex = 0;
+         showSlides();
+         
+         function showSlides() {
+           var i;
+           var slides = document.getElementsByClassName("mySlides");
+           var dots = document.getElementsByClassName("dot");
+           for (i = 0; i < slides.length; i++) {
+             slides[i].style.display = "none";  
+           }
+           slideIndex++;
+           if (slideIndex > slides.length) {slideIndex = 1}    
+           for (i = 0; i < dots.length; i++) {
+             dots[i].className = dots[i].className.replace(" active", "");
+           }
+           slides[slideIndex-1].style.display = "block";  
+           dots[slideIndex-1].className += " active";
+           setTimeout(showSlides, 5000); // Change image every 5 seconds
+         }
+         </script>
+   </aside>
+
+   <aside class= left>
+         <tr>
+            <a href="https://www.britannica.com/place/Nigeria"><img Src="Nigeria.jpg" style="margin:auto;max-width:200px">
+            </tr>
+   MY HOMETOWN
+            <br><br><br>
+   
+            <tr>
+               <a href="https://en.wikipedia.org/wiki/London_Borough_of_Barking_and_Dagenham"><img Src="london.jpg" style="margin:auto;max-width:200px">
+               </tr>
+   BARKING AND DAGENHAM
+   
+               <br><br><br>
+               <tr>
+                  <a href="https://www.eastbrookschool.org/"><img Src="Eastbrook.jpg" style="margin:auto;max-width:200px">
+                  </tr>
+   EASTBROOK COMPRESHIEVE SCHOOL
+                  <br><br><br>
+                  <tr>
+                  <a href="https://www.newham.ac.uk/"><img Src="Newham.jpg" style="margin:auto;max-width:200px">
+                     </tr>
+   NEWHAM COLLEGE
+                     <br><br><br>
+                     <tr>
+                        <a href="https://www.northampton.ac.uk/"><img Src="UniversityofNorthampton.jpg" style="margin:auto;max-width:200px">
+                        UNIVERSITY OF NORTHAMPTON
+                        </tr></a>
+   </aside>
+</article>
+
+<footer>
+ My FOOTER
+ </footer>
+</div>
+</body>
+</html>
